@@ -73,39 +73,71 @@ Study the following concepts:
 
 For example:
 
-\[
-a = [2, 3, 4]
-\]
-
-\[
-b = [1, 5, 2]
-\]
+$$
+\begin{aligned}
+a &= [2, 3, 4]\\
+b &= [1, 5, 2]
+\end{aligned}
+$$
 
 ### Operations
 
 **Vector addition**
 
-\[
-a+b=[2+1,\ 3+5,\ 4+2]=[3,8,6]
-\]
+$$
+a+b =
+\begin{bmatrix}
+2+1\\
+3+5\\
+4+2
+\end{bmatrix}
+=
+\begin{bmatrix}
+3\\
+8\\
+6
+\end{bmatrix}
+$$
 
 **Scalar multiplication**
 
-\[
-3a=[6,9,12]
-\]
+$$
+3a =
+3
+\begin{bmatrix}
+2\\
+3\\
+4
+\end{bmatrix}
+=
+\begin{bmatrix}
+6\\
+9\\
+12
+\end{bmatrix}
+$$
 
 **Dot product**
 
-\[
-a\cdot b = 2(1)+3(5)+4(2)=25
-\]
+$$
+\begin{aligned}
+a \cdot b
+&= 2 \cdot 1 + 3 \cdot 5 + 4 \cdot 2\\
+&= 2 + 15 + 8\\
+&= 25
+\end{aligned}
+$$
 
-**Euclidean norm**
+**Euclidean norm (L2 norm)**
 
-\[
-\|a\|_2=\sqrt{2^2+3^2+4^2}=\sqrt{29}
-\]
+$$
+\begin{aligned}
+\|a\|_2
+&= \sqrt{2^2 + 3^2 + 4^2}\\
+&= \sqrt{4 + 9 + 16}\\
+&= \sqrt{29}
+\end{aligned}
+$$
 
 ### Math exercises
 
