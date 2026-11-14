@@ -187,7 +187,7 @@ The curriculum will integrate selected books and courses into the corresponding 
 
 Some planned resources:
 
-- [MIT OpenCourseWare — Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+- [MIT OpenCourseWare — Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
 - [Grokking Machine Learning, 2nd Edition](https://www.manning.com/books/grokking-machine-learning-second-edition)
 - [Deep Learning with PyTorch, 2nd Edition](https://www.manning.com/books/deep-learning-with-pytorch-second-edition)
 - [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
