@@ -168,15 +168,15 @@ Each dimension receives a score from 1 to 5.
 
 The weighted score is:
 
-\[
+$$
 S = \sum_{i=1}^{5} w_i \cdot \frac{s_i}{5}
-\]
+$$
 
 Where:
 
-- \(S\) is the final percentage.
-- \(w_i\) is the dimension weight expressed as a percentage.
-- \(s_i\) is the score from 1 to 5.
+- $S$ is the final percentage.
+- $w_i$ is the dimension weight expressed as a percentage.
+- $s_i$ is the score from 1 to 5.
 
 Example:
 

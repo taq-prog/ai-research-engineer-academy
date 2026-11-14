@@ -163,14 +163,14 @@ Each dimension receives a score from 1 to 5.
 
 ### Weighted score calculation
 
-\[
+$$
 S = \sum_{i=1}^{5} w_i \cdot \frac{s_i}{5} \cdot 100
-\]
+$$
 
 Where:
 
-- \(w_i\) is the percentage weight.
-- \(s_i\) is the score from 1 to 5.
+- $w_i$ is the percentage weight.
+- $s_i$ is the score from 1 to 5.
 
 ### Progress decisions
 

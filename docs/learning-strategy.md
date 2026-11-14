@@ -283,9 +283,9 @@ This is especially important in the first learning phases.
 
 A useful learning sequence:
 
-1. Implement prediction using \(y = wx + b\).
+1. Implement prediction using $y = wx + b$.
 2. Implement mean squared error.
-3. Derive gradients for \(w\) and \(b\).
+3. Derive gradients for $w$ and $b$.
 4. Implement gradient descent.
 5. Train on synthetic data.
 6. Experiment with learning rates.

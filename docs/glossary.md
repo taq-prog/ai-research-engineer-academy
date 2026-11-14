@@ -31,7 +31,7 @@ The glossary will evolve throughout the Academy.
 | Range               | The set of values a function can produce.                                                         |
 | Equation            | A statement that two expressions are equal.                                                       |
 | Inequality          | A mathematical statement comparing two expressions.                                               |
-| Summation           | The addition of a sequence of values, commonly represented by \(\sum\).                           |
+| Summation           | The addition of a sequence of values, commonly represented by $\sum$.                           |
 | Product             | The multiplication of values.                                                                     |
 | Absolute Value      | The non-negative magnitude of a real number.                                                      |
 | Norm                | A mathematical measure of the magnitude of a vector.                                              |
@@ -52,7 +52,7 @@ The glossary will evolve throughout the Academy.
 | Basis                              | A linearly independent set of vectors that spans a vector space.                                 |
 | Dimension                          | The number of vectors in a basis of a finite-dimensional vector space.                           |
 | Span                               | The set of all possible linear combinations of a collection of vectors.                          |
-| Dot Product                        | A scalar product of two vectors, commonly written as \(a^\top b\).                               |
+| Dot Product                        | A scalar product of two vectors, commonly written as $a^\top b$.                               |
 | Inner Product                      | A generalized operation that measures relationships between vectors.                             |
 | Orthogonality                      | A relationship where the inner product of two vectors is zero.                                   |
 | Projection                         | The component of one vector along another vector or subspace.                                    |
@@ -74,39 +74,39 @@ The glossary will evolve throughout the Academy.
 
 Dot product:
 
-\[
+$$
 a^\top b = \sum_{i=1}^{n} a_i b_i
-\]
+$$
 
 Euclidean norm:
 
-\[
+$$
 \|x\|_2 = \sqrt{\sum_{i=1}^{n}x_i^2}
-\]
+$$
 
 Matrix multiplication:
 
-\[
+$$
 C_{ij} = \sum_k A_{ik}B_{kj}
-\]
+$$
 
 Eigenvalue equation:
 
-\[
+$$
 Av = \lambda v
-\]
+$$
 
 Least squares:
 
-\[
+$$
 \min_x \|Ax-b\|_2^2
-\]
+$$
 
 SVD:
 
-\[
+$$
 A = U\Sigma V^\top
-\]
+$$
 
 ---
 
@@ -139,21 +139,21 @@ A = U\Sigma V^\top
 
 Derivative:
 
-\[
+$$
 f'(x) = \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}
-\]
+$$
 
 Gradient descent:
 
-\[
+$$
 \theta_{t+1} = \theta_t - \eta \nabla_\theta L(\theta_t)
-\]
+$$
 
 Chain rule:
 
-\[
+$$
 \frac{d}{dx}f(g(x)) = f'(g(x))g'(x)
-\]
+$$
 
 ---
 
@@ -192,28 +192,28 @@ Chain rule:
 
 Expected value:
 
-\[
+$$
 \mathbb{E}[X] = \sum_x xP(X=x)
-\]
+$$
 
 Variance:
 
-\[
+$$
 \operatorname{Var}(X)=\mathbb{E}[(X-\mathbb{E}[X])^2]
-\]
+$$
 
 Bayes' theorem:
 
-\[
+$$
 P(A|B)=\frac{P(B|A)P(A)}{P(B)}
-\]
+$$
 
 Covariance:
 
-\[
+$$
 \operatorname{Cov}(X,Y)=
 \mathbb{E}[(X-\mathbb{E}[X])(Y-\mathbb{E}[Y])]
-\]
+$$
 
 ---
 
@@ -380,7 +380,7 @@ Covariance:
 
 ### Scaled dot-product attention
 
-\[
+$$
 \operatorname(Q,K,V)
 ====================
 
@@ -388,14 +388,14 @@ Covariance:
 \left(
 \frac{QK^\top}{\sqrt{d_k}}
 \right)V
-\]
+$$
 
 Where:
 
-- \(Q\) represents queries.
-- \(K\) represents keys.
-- \(V\) represents values.
-- \(d_k\) is the key dimension.
+- $Q$ represents queries.
+- $K$ represents keys.
+- $V$ represents values.
+- $d_k$ is the key dimension.
 
 ---
 
@@ -501,30 +501,30 @@ Where:
 
 | Symbol                 | Meaning                                                         |
 | ---------------------- | --------------------------------------------------------------- |
-| \(x\)                  | Scalar or input variable                                        |
-| \(\mathbf{x}\)         | Vector                                                          |
-| \(A\)                  | Matrix                                                          |
-| \(A^\top\)             | Matrix transpose                                                |
-| \(A^{-1}\)             | Matrix inverse, when it exists                                  |
-| \(\mathbf{I}\)         | Identity matrix                                                 |
-| \(\lambda\)            | Often an eigenvalue or regularization parameter                 |
-| \(\sum\)               | Summation                                                       |
-| \(\prod\)              | Product                                                         |
-| \(\nabla\)             | Gradient operator                                               |
-| \(\partial\)           | Partial derivative notation                                     |
-| \(\mathbb{E}\)         | Expected value                                                  |
-| \(\operatorname{Var}\) | Variance                                                        |
-| \(\mathcal{L}\)        | Often a loss function                                           |
-| \(\theta\)             | Model parameters                                                |
-| \(\eta\)               | Often a learning rate                                           |
-| \(\epsilon\)           | A small positive value or error tolerance, depending on context |
-| \(O(n)\)               | Asymptotic complexity notation                                  |
-| \(\in\)                | Element of a set                                                |
-| \(\subseteq\)          | Subset relation                                                 |
-| \(\forall\)            | For all                                                         |
-| \(\exists\)            | There exists                                                    |
-| \(\approx\)            | Approximately equal                                             |
-| \(\propto\)            | Proportional to                                                 |
+| $x$                  | Scalar or input variable                                        |
+| $\mathbf{x}$         | Vector                                                          |
+| $A$                  | Matrix                                                          |
+| $A^\top$             | Matrix transpose                                                |
+| $A^{-1}$             | Matrix inverse, when it exists                                  |
+| $\mathbf{I}$         | Identity matrix                                                 |
+| $\lambda$            | Often an eigenvalue or regularization parameter                 |
+| $\sum$               | Summation                                                       |
+| $\prod$              | Product                                                         |
+| $\nabla$             | Gradient operator                                               |
+| $\partial$           | Partial derivative notation                                     |
+| $\mathbb{E}$         | Expected value                                                  |
+| $\operatorname{Var}$ | Variance                                                        |
+| $\mathcal{L}$        | Often a loss function                                           |
+| $\theta$             | Model parameters                                                |
+| $\eta$               | Often a learning rate                                           |
+| $\epsilon$           | A small positive value or error tolerance, depending on context |
+| $O(n)$               | Asymptotic complexity notation                                  |
+| $\in$                | Element of a set                                                |
+| $\subseteq$          | Subset relation                                                 |
+| $\forall$            | For all                                                         |
+| $\exists$            | There exists                                                    |
+| $\approx$            | Approximately equal                                             |
+| $\propto$            | Proportional to                                                 |
 
 The meaning of a symbol depends on context. Always inspect how it is defined in the source.
 

@@ -238,8 +238,8 @@ Requirements:
 
 Expected complexity:
 
-- Time: \(O(n^2)\)
-- Extra space: \(O(1)\)
+- Time: $O(n^2)$
+- Extra space: $O(1)$
 
 ### Task B — Hash map
 
@@ -247,16 +247,16 @@ Implement an optimized solution using a dictionary.
 
 Hint: For each number, calculate:
 
-\[
+$$
 complement = target - current
-\]
+$$
 
 Check whether the complement already exists in the dictionary.
 
 Expected complexity:
 
-- Time: \(O(n)\) average case
-- Extra space: \(O(n)\)
+- Time: $O(n)$ average case
+- Extra space: $O(n)$
 
 ### Edge cases
 
