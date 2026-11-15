@@ -1,10 +1,10 @@
-| Книга                                          | Недели | Роль                                       | Проект                              |
-| --------------------------------------------------- | ------------ | ---------------------------------------------- | ----------------------------------------- |
-| **Grokking Machine Learning 2e**              | 13–24       | Основной материал Classical ML |                                           |
-| **Deep Learning with PyTorch 2e**             | 25–40       | Deep Learning и PyTorch                       | https://github.com/luisguiserrano/manning |
-| **Build a Large Language Model From Scratch** | 41–68       | NLP, Transformers, LLM                         |                                           |
-| **Grokking Parallel Programming**             | 85–96       | GPU и parallel programming                    |                                           |
-| **Build a Reasoning Model From Scratch**      | 97–104+     | Основной материал Classical ML |                                           |
+| Книга                                          | Недели | Роль                                       | Проект                                                                   |
+| --------------------------------------------------- | ------------ | ---------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Grokking Machine Learning 2e**              | 13–24       | Основной материал Classical ML | [github.com/luisguiserrano/manning](https://github.com/luisguiserrano/manning)  |
+| **Deep Learning with PyTorch 2e**             | 25–40       | Deep Learning и PyTorch                       |                                                                                |
+| **Build a Large Language Model From Scratch** | 41–68       | NLP, Transformers, LLM                         |                                                                                |
+| **Grokking Parallel Programming**             | 85–96       | GPU и parallel programming                    |                                                                                |
+| **Build a Reasoning Model From Scratch**      | 97–104+     | Основной материал Classical ML |                                                                                |
 
 Дополнительно:
 
