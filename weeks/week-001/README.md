@@ -50,13 +50,13 @@ Use the following resources in the recommended order. Required resources are suf
 
 Recommended sections:
 
-| Section | Topic                              | Priority |
-| ------- | ---------------------------------- | -------- |
-| 3       | An Informal Introduction to Python | Required |
-| 4       | More Control Flow Tools            | Required |
-| 5       | Data Structures                    | Required |
-| 9       | Classes                            | Required |
-| 6       | Modules                            | Optional |
+| Section | Topic                                                                                     | Priority |
+| ------- | ----------------------------------------------------------------------------------------- | -------- |
+| 3       | [An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html) | Required |
+| 4       | [More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)             | Required |
+| 5       | [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)                  | Required |
+| 9       | [Classes](https://docs.python.org/3/tutorial/classes.html)                                 | Required |
+| 6       | [Modules](https://docs.python.org/3/tutorial/modules.html)                                 | Optional |
 
 Focus on functions, collections, classes, exceptions and modules.
 
