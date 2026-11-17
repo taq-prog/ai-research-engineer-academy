@@ -197,7 +197,7 @@ A linear combination scales vectors and adds the results; (a+b) is the combinati
 
 Award credit for both parts:
 
-- **3 points:** Explains that `zip` silently drops unmatched trailing entries, so the method can return a plausible but incorrect shorter vector.
+- **3 points:** Explains that stopping at the shorter length drops unmatched trailing entries, so the method can return a plausible but incorrect shorter vector.
 - **4 points:** Says to check that the dimensions match and raise a meaningful exception (such as `ValueError`) before adding.
 
 ### 8. Example answer
