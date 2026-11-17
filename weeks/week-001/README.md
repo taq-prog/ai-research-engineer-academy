@@ -559,3 +559,7 @@ Complete `notes.md` by answering:
 7. What should I review before Week 002?
 
 **Final goal:** Build a solid foundation in Python and vector mathematics. These concepts will be reused throughout the entire AI Research Engineer Academy programme.
+
+## 15. Knowledge Check
+
+Use the [Week 001 Python & Linear Algebra Quiz](quiz.md) to review the week's Python fundamentals, vector operations, pytest basics, and Two Sum approaches. The quiz includes varied question formats, explanations, difficulty labels, and a 100-point scoring rubric.
