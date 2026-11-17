@@ -512,7 +512,7 @@ ai-research-engineer-academy/
 
 ## 12. Definition of Done
 
-- [ ] Python environment is configured.
+- [X] Python environment is configured.
 - [ ] Python exercises are implemented.
 - [ ] MIT Lecture 1 is completed.
 - [ ] Main mathematical concepts are understood.
