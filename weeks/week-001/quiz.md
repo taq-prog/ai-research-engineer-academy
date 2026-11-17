@@ -79,20 +79,20 @@ For (a=[2,3,4]) and (b=[1,5,2]):
 
 ---
 
-### 6. Linear combinations — Multiple choice · Easy · 6 points
+### 6. Linear combinations and dot product — Multiple select · Medium · 6 points
 
-Which expression is a linear combination of (a) and (b)?
+Select both correct statements.
 
-A. (a+b)  
-B. (a \cdot b)  
-C. (|a|_2)  
-D. The number of entries in (a)
+A. (a+b) is a linear combination of (a) and (b).  
+B. The dot product of two vectors is another vector with the same dimension.  
+C. The dot product is a scalar formed from pairwise products and addition; geometrically, it helps describe how vectors align.  
+D. A linear combination can only use one vector.
 
 ---
 
 ### 7. Dimension validation — Short answer · Medium · 7 points
 
-A `Vector.__add__` method pairs entries using `zip(self.values, other.values)` and returns the paired sums. For vectors of different lengths, `zip` stops at the shorter vector.
+A `Vector.__add__` method loops over matching positions only up to the length of the shorter vector and returns those paired sums.
 
 What bug can this cause? What should the method do when dimensions differ?
 
@@ -189,9 +189,9 @@ Add corresponding entries: ([2+1, 3+5, 4+2]). The vectors must have the same dim
 (2\times1 + 3\times5 + 4\times2 = 25).  
 (|a|_2 = \sqrt{2^2+3^2+4^2}=\sqrt{29}).
 
-### 6. A
+### 6. A and C
 
-A linear combination scales vectors and adds the results; (a+b) is the combination (1a+1b). The dot product and norm produce scalars, not a vector combination.
+A linear combination scales vectors and adds the results; (a+b) is the combination 1a+1b. The dot product is a scalar. Its geometric interpretation includes how aligned the vectors are.
 
 ### 7. Expected points
 
@@ -206,7 +206,10 @@ Award credit for both parts:
 def dot(left: list[float], right: list[float]) -> float:
     if len(left) != len(right):
         raise ValueError("vectors must have the same dimension")
-    return sum(a * b for a, b in zip(left, right))
+    total = 0.0
+    for index in range(len(left)):
+        total += left[index] * right[index]
+    return total
 ```
 
 Award points for a correct type-hinted function, dimension validation with `ValueError`, and the sum of pairwise products. A loop instead of `sum` is also correct.
