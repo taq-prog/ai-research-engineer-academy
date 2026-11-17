@@ -1,7 +1,7 @@
 # Week 001 — Python & Linear Algebra Foundations
 
 **Programme:** AI Research Engineer Academy
-**Phase:** 1 — Mathematics & Python Foundations
+**Phase:** 1 — Python and Mathematics Foundations
 **Duration:** 1 week
 **Estimated workload:** 6 hours
 **Status:** Not Started
@@ -9,6 +9,8 @@
 ---
 
 ## 1. Weekly Objectives
+
+This first week deliberately builds fundamentals rather than jumping straight into LLM frameworks. Python fluency, vector intuition, tests, and algorithmic reasoning will support both AI backend engineering in the near term and deeper ML work later. Keep the existing six-hour workload; do not add extra tasks.
 
 By the end of this week, you should be able to:
 
@@ -58,7 +60,7 @@ Recommended sections:
 | 9       | [Classes](https://docs.python.org/3/tutorial/classes.html)                                 | Required |
 | 6       | [Modules](https://docs.python.org/3/tutorial/modules.html)                                 | Optional |
 
-Focus on functions, collections, classes, exceptions and modules.
+Focus on functions, collections, classes, exceptions and modules. These are the building blocks for maintainable Python services and AI application backends.
 
 You do not need to read the entire Python documentation.
 
@@ -196,7 +198,7 @@ For each lecture:
 
 ### Learning Outcome
 
-Understand why vectors and matrices are fundamental representations of data and transformations in machine learning.
+Understand why vectors and matrices are fundamental representations of data and transformations in machine learning. In later weeks, this intuition will connect to embeddings, similarity search, and RAG.
 
 ---
 
