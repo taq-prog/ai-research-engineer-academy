@@ -4,12 +4,14 @@ This document tracks actual progress throughout the 104-week AI Research Enginee
 
 The purpose is to maintain an honest record of learning, implementation, experiments, and demonstrated understanding.
 
+**Career direction:** AI Engineering first → AI Research Engineering next. The near-term focus is applied AI and production LLM systems; research depth grows in later phases.
+
 **Target duration:** 104 weeks
 **Weekly commitment:** 5–7 hours
 **Current status:** Not started / awaiting initial progress confirmation
-**Current phase:** Phase 1 — Mathematics & Python Foundations
+**Current phase:** Phase 1 — Python and Mathematics Foundations
 **Current week:** Week 001
-**Last updated:** 2026-11-14
+**Last updated:** 2026-11-17
 
 ---
 
@@ -30,16 +32,18 @@ Progress is updated only when there is evidence of completed work.
 
 ## Phase Progress
 
-| Phase                               |   Weeks | Status      | Completed |
-| ----------------------------------- | ------: | ----------- | --------: |
-| 1. Mathematics & Python Foundations |   1–12 | Not started |      0/12 |
-| 2. Classical Machine Learning       |  13–24 | Not started |      0/12 |
-| 3. Deep Learning & PyTorch          |  25–40 | Not started |      0/16 |
-| 4. NLP & Transformers               |  41–56 | Not started |      0/16 |
-| 5. LLM Training & Fine-tuning       |  57–68 | Not started |      0/12 |
-| 6. Research Paper Reproduction      |  69–84 | Not started |      0/16 |
-| 7. ML Systems, GPU & Performance    |  85–96 | Not started |      0/12 |
-| 8. Independent Research & Portfolio | 97–104 | Not started |       0/8 |
+| Phase | Weeks | Status | Completed |
+|---|---:|---|---:|
+| 1. Python and Mathematics Foundations | 1–4 | Not started | 0/4 |
+| 2. LLM Application Engineering | 5–8 | Not started | 0/4 |
+| 3. RAG and Production AI Engineering | 9–16 | Not started | 0/8 |
+| 4. Classical Machine Learning | 17–28 | Not started | 0/12 |
+| 5. Deep Learning and PyTorch | 29–44 | Not started | 0/16 |
+| 6. NLP and Transformers | 45–56 | Not started | 0/12 |
+| 7. LLM Adaptation and Fine-tuning | 57–68 | Not started | 0/12 |
+| 8. Research Paper Reproduction | 69–84 | Not started | 0/16 |
+| 9. ML Systems, GPU and Performance | 85–96 | Not started | 0/12 |
+| 10. Independent Research and Portfolio | 97–104 | Not started | 0/8 |
 
 ---
 
@@ -47,15 +51,16 @@ Progress is updated only when there is evidence of completed work.
 
 ## Current Focus
 
-**Phase 1 — Mathematics & Python Foundations**
+**Phase 1 — Python and Mathematics Foundations**
 
 Current focus:
 
 - Python development environment.
 - Python functions, classes, and collections.
 - Algebra and vector fundamentals.
-- Vector operations.
+- Vector operations and Python testing.
 - Basic algorithmic problem solving.
+- Establish Python foundations for later LLM application and AI backend work.
 
 ## Current Week
 
@@ -109,20 +114,21 @@ weeks/week-001/
 
 Use this table to track completed and reviewed weeks.
 
-| Week | Topic                         | Status      | Score | Study Hours | Review |
-| ---: | ----------------------------- | ----------- | ----: | ----------: | ------ |
-|  001 | Python & Vectors              | Not started |    — |          — | —     |
-|  002 | Vector Spaces                 | Not started |    — |          — | —     |
-|  003 | Matrices                      | Not started |    — |          — | —     |
-|  004 | Gaussian Elimination          | Not started |    — |          — | —     |
-|  005 | Rank, Basis & Dimension       | Not started |    — |          — | —     |
-|  006 | Orthogonality & Least Squares | Not started |    — |          — | —     |
-|  007 | Eigenvalues & Eigenvectors    | Not started |    — |          — | —     |
-|  008 | SVD                           | Not started |    — |          — | —     |
-|  009 | Derivatives                   | Not started |    — |          — | —     |
-|  010 | Gradient Descent              | Not started |    — |          — | —     |
-|  011 | Probability                   | Not started |    — |          — | —     |
-|  012 | Statistics & Review           | Not started |    — |          — | —     |
+| Week | Topic | Status | Score | Study Hours | Review |
+|---:|---|---|---:|---:|---|
+| 001 | Python and Vector Foundations | Not started | — | 0 | — |
+| 002 | Python Packaging and Vector Spaces | Not started | — | — | — |
+| 003 | NumPy and Matrices | Not started | — | — | — |
+| 004 | Python APIs and Foundations Review | Not started | — | — | — |
+| 005–008 | LLM Application Engineering | Not started | — | — | — |
+| 009–016 | RAG and Production AI Engineering | Not started | — | — | — |
+| 017–028 | Classical Machine Learning | Not started | — | — | — |
+| 029–044 | Deep Learning and PyTorch | Not started | — | — | — |
+| 045–056 | NLP and Transformers | Not started | — | — | — |
+| 057–068 | LLM Adaptation and Fine-tuning | Not started | — | — | — |
+| 069–084 | Research Paper Reproduction | Not started | — | — | — |
+| 085–096 | ML Systems, GPU and Performance | Not started | — | — | — |
+| 097–104 | Independent Research and Portfolio | Not started | — | — | — |
 
 Add further rows as each phase begins.
 
@@ -164,13 +170,15 @@ Each dimension receives a score from 1 to 5.
 ### Weighted score calculation
 
 $$
-S = \sum_{i=1}^{5} w_i \cdot \frac{s_i}{5} \cdot 100
+S = \sum_{i=1}^{5} w_i \cdot \frac{s_i}{5}
 $$
 
 Where:
 
-- $w_i$ is the percentage weight.
+- $w_i$ is the weight expressed as a percentage number (for example, 20, 20, 25, 20, 15; the weights sum to 100).
 - $s_i$ is the score from 1 to 5.
+
+Do not multiply by 100 again: the percentage weights already produce a result on a 0–100 scale.
 
 ### Progress decisions
 
