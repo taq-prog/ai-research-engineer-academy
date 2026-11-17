@@ -1,403 +1,190 @@
 # AI Research Engineer Academy — Progress Tracker
 
-This document tracks actual progress throughout the 104-week AI Research Engineer Academy.
+This document records demonstrated progress across the 104-week Academy. Update it only when completed work and evidence exist.
 
-The purpose is to maintain an honest record of learning, implementation, experiments, and demonstrated understanding.
-
-**Target duration:** 104 weeks
+**Target duration:** 104 weeks (flexible)
 **Weekly commitment:** 5–7 hours
+**Career direction:** AI Engineering first → AI Research Engineering next
 **Current status:** Not started / awaiting initial progress confirmation
-**Current phase:** Phase 1 — Mathematics & Python Foundations
+**Current phase:** Phase 1 — Python and Mathematics Foundations
 **Current week:** Week 001
-**Last updated:** 2026-11-14
+**Last updated:** 2026-11-17
 
 ---
 
-# 1. Overall Progress
+## 1. Overall progress
 
-| Metric                       | Current |
-| ---------------------------- | ------: |
-| Total curriculum weeks       |     104 |
-| Completed weeks              |       0 |
-| In-progress weeks            |       0 |
-| Reviewed weeks               |       0 |
-| Completion percentage        |      0% |
-| Total study hours            |       0 |
-| Research papers reproduced   |       0 |
-| Portfolio projects completed |       0 |
+| Metric | Current |
+|---|---:|
+| Total curriculum weeks | 104 |
+| Completed weeks | 0 |
+| In-progress weeks | 0 |
+| Reviewed weeks | 0 |
+| Completion percentage | 0% |
+| Total study hours | 0 |
+| Research papers reproduced | 0 |
+| Portfolio projects completed | 0 |
 
-Progress is updated only when there is evidence of completed work.
+Progress remains **0/104** until there is evidence of completed work.
 
-## Phase Progress
+## 2. Phase progress
 
-| Phase                               |   Weeks | Status      | Completed |
-| ----------------------------------- | ------: | ----------- | --------: |
-| 1. Mathematics & Python Foundations |   1–12 | Not started |      0/12 |
-| 2. Classical Machine Learning       |  13–24 | Not started |      0/12 |
-| 3. Deep Learning & PyTorch          |  25–40 | Not started |      0/16 |
-| 4. NLP & Transformers               |  41–56 | Not started |      0/16 |
-| 5. LLM Training & Fine-tuning       |  57–68 | Not started |      0/12 |
-| 6. Research Paper Reproduction      |  69–84 | Not started |      0/16 |
-| 7. ML Systems, GPU & Performance    |  85–96 | Not started |      0/12 |
-| 8. Independent Research & Portfolio | 97–104 | Not started |       0/8 |
+| Phase | Weeks | Status | Completed |
+|---|---:|---|---:|
+| 1. Python and Mathematics Foundations | 1–4 | Not started | 0/4 |
+| 2. LLM Application Engineering | 5–8 | Not started | 0/4 |
+| 3. RAG and Production AI Engineering | 9–16 | Not started | 0/8 |
+| 4. Classical Machine Learning | 17–28 | Not started | 0/12 |
+| 5. Deep Learning and PyTorch | 29–44 | Not started | 0/16 |
+| 6. NLP and Transformers | 45–56 | Not started | 0/12 |
+| 7. LLM Adaptation and Fine-tuning | 57–68 | Not started | 0/12 |
+| 8. Research Paper Reproduction | 69–84 | Not started | 0/16 |
+| 9. ML Systems, GPU and Performance | 85–96 | Not started | 0/12 |
+| 10. Independent Research and Portfolio | 97–104 | Not started | 0/8 |
 
----
+## 3. Weekly status
 
-# 2. Current Learning Status
+| Week | Focus | Status | Actual hours | Evidence |
+|---:|---|---|---:|---|
+| 001 | Python and Mathematics Foundations | Not Started | 0 | — |
+| 002 | Python packaging and vector spaces | Not Started | — | — |
+| 003 | NumPy and matrices | Not Started | — | — |
+| 004 | Python APIs and foundations review | Not Started | — | — |
+| 005–008 | LLM Application Engineering | Not Started | — | — |
+| 009–016 | RAG and Production AI Engineering | Not Started | — | — |
+| 017–028 | Classical Machine Learning | Not Started | — | — |
+| 029–044 | Deep Learning and PyTorch | Not Started | — | — |
+| 045–056 | NLP and Transformers | Not Started | — | — |
+| 057–068 | LLM Adaptation and Fine-tuning | Not Started | — | — |
+| 069–084 | Research Paper Reproduction | Not Started | — | — |
+| 085–096 | ML Systems, GPU and Performance | Not Started | — | — |
+| 097–104 | Independent Research and Portfolio | Not Started | — | — |
 
-## Current Focus
+Detailed weekly notes and evidence belong in the corresponding `weeks/week-NNN/` directory.
 
-**Phase 1 — Mathematics & Python Foundations**
+## 4. Current focus — Week 001
 
-Current focus:
+**Status:** Not Started  
+**Planned time:** 6 hours
 
-- Python development environment.
-- Python functions, classes, and collections.
-- Algebra and vector fundamentals.
-- Vector operations.
-- Basic algorithmic problem solving.
+- [ ] Python fundamentals — 1 hour
+- [ ] MIT Linear Algebra — 1 hour
+- [ ] Mathematics exercises — 30 minutes
+- [ ] Vector implementation and tests — 1.5 hours
+- [ ] Experiments and notes — 1 hour
+- [ ] MAANG preparation — 1 hour
 
-## Current Week
+**Expected evidence:** Python exercises, Vector implementation without NumPy, passing pytest tests, Two Sum brute-force and hash-map implementations, complexity explanation, benchmark notes, and mathematical notes.
 
-**Week 001 — Python and Vector Foundations**
+## 5. Weekly time tracking
 
-| Assignment                             | Status      |
-| -------------------------------------- | ----------- |
-| Configure Python environment           | Not started |
-| Configure pytest and Ruff              | Not started |
-| Study Python functions and classes     | Not started |
-| Study vector operations                | Not started |
-| Implement Vector class without NumPy   | Not started |
-| Write unit tests                       | Not started |
-| Implement Two Sum brute-force solution | Not started |
-| Implement Two Sum hash-map solution    | Not started |
-| Compare implementations                | Not started |
-| Write weekly notes                     | Not started |
+| Week | Planned hours | Actual hours | Difference |
+|---:|---:|---:|---:|
+| 001 | 6 | 0 | — |
+| 002 | 6 | — | — |
+| 003 | 6 | — | — |
 
-### Expected deliverables
+Target: 5–7 hours per week. Record actual time, not estimated or intended time.
 
-```text
-weeks/week-001/
-├── README.md
-├── notes.md
-├── exercises/
-├── src/
-│   ├── vector.py
-│   └── two_sum.py
-├── tests/
-│   ├── test_vector.py
-│   └── test_two_sum.py
-└── results/
-    └── two-sum-benchmark.md
-```
+## 6. Evaluation
 
-### Week 001 acceptance criteria
+The five dimensions and weights are:
+- Theory and conceptual understanding: 20%
+- Mathematics: 20%
+- Implementation: 25%
+- Experiments and evaluation: 20%
+- Technical communication: 15%
 
-- [ ] Python environment works.
-- [ ] Vector operations are implemented without NumPy.
-- [ ] Unit tests pass.
-- [ ] Two Sum has brute-force and hash-map implementations.
-- [ ] Time and space complexity are explained.
-- [ ] NumPy comparison is documented.
-- [ ] Weekly notes are written.
+Each dimension receives a score from 1 to 5. The weighted score is a percentage.
 
-**Completion status:** Not started.
+Let (w_i) be the dimension weight as a decimal fraction (for example, 20% = 0.20), and (s_i) be its score from 1 to 5:
 
----
+[
+S = sum_{i=1}^{5} w_i cdot rac{s_i}{5} cdot 100
+]
 
-# 3. Weekly History
+If weights are stored as percentage numbers (20, 20, 25, 20, 15) rather than decimal fractions, use:
 
-Use this table to track completed and reviewed weeks.
+[
+S = sum_{i=1}^{5} rac{w_i}{100} cdot rac{s_i}{5} cdot 100
+= sum_{i=1}^{5} w_i cdot rac{s_i}{5}
+]
 
-| Week | Topic                         | Status      | Score | Study Hours | Review |
-| ---: | ----------------------------- | ----------- | ----: | ----------: | ------ |
-|  001 | Python & Vectors              | Not started |    — |          — | —     |
-|  002 | Vector Spaces                 | Not started |    — |          — | —     |
-|  003 | Matrices                      | Not started |    — |          — | —     |
-|  004 | Gaussian Elimination          | Not started |    — |          — | —     |
-|  005 | Rank, Basis & Dimension       | Not started |    — |          — | —     |
-|  006 | Orthogonality & Least Squares | Not started |    — |          — | —     |
-|  007 | Eigenvalues & Eigenvectors    | Not started |    — |          — | —     |
-|  008 | SVD                           | Not started |    — |          — | —     |
-|  009 | Derivatives                   | Not started |    — |          — | —     |
-|  010 | Gradient Descent              | Not started |    — |          — | —     |
-|  011 | Probability                   | Not started |    — |          — | —     |
-|  012 | Statistics & Review           | Not started |    — |          — | —     |
+**Do not multiply the percentage-weight formula by 100 a second time.** The result must be between 0 and 100.
 
-Add further rows as each phase begins.
-
-### Status definitions
-
-- **Not started** — no work has been confirmed.
-- **In progress** — work has started.
-- **Ready for review** — deliverables are available for evaluation.
-- **Completed** — acceptance criteria have been met.
-- **Needs revision** — important gaps remain.
-- **Blocked** — progress depends on resolving an external or technical issue.
-
----
-
-# 4. Assessment System
-
-Every reviewed week is evaluated across five dimensions.
-
-| Dimension      | Weight | What is evaluated                      |
-| -------------- | -----: | -------------------------------------- |
-| Theory         |    20% | Conceptual understanding               |
-| Mathematics    |    20% | Derivations and mathematical reasoning |
-| Implementation |    25% | Correctness, code quality, tests       |
-| Experiments    |    20% | Experimental design and interpretation |
-| Communication  |    15% | Notes, explanations, reproducibility   |
-
-Each dimension receives a score from 1 to 5.
-
-## Scoring scale
-
-| Score | Meaning                                             |
-| ----: | --------------------------------------------------- |
-|     1 | Insufficient understanding                          |
-|     2 | Basic understanding with major gaps                 |
-|     3 | Working knowledge                                   |
-|     4 | Strong understanding                                |
-|     5 | Excellent understanding and independent application |
-
-### Weighted score calculation
-
-$$
-S = \sum_{i=1}^{5} w_i \cdot \frac{s_i}{5} \cdot 100
-$$
-
-Where:
-
-- $w_i$ is the percentage weight.
-- $s_i$ is the score from 1 to 5.
-
-### Progress decisions
-
-| Weighted Score | Decision                  |
-| -------------: | ------------------------- |
-|        85–100 | Strong — proceed         |
-|         70–84 | Good — proceed with gaps |
-|         60–69 | Review weak areas         |
-|       Below 60 | Repeat essential material |
+| Weighted score | Decision |
+|---:|---|
+| 85–100 | Strong — proceed |
+| 70–84 | Good — proceed with gaps |
+| 60–69 | Review weak areas |
+| Below 60 | Repeat essential material |
 
 A high implementation score cannot compensate for missing conceptual or mathematical understanding.
 
----
+## 7. Portfolio tracker
 
-# 5. Weekly Review Template
+| Project | Status | Tests | Documentation | Evaluation |
+|---|---|---|---|---|
+| Production RAG system | Not started | — | — | — |
+| Classical ML pipeline | Not started | — | — | — |
+| Transformer and fine-tuning | Not started | — | — | — |
+| Research reproduction | Not started | — | — | — |
+| ML systems optimization | Not started | — | — | — |
 
-Copy this template into the corresponding weekly folder.
+A project is portfolio-ready only when it has a clear problem statement, reproducible setup, working implementation, tests, evaluation, experiment results, technical documentation, and known limitations.
 
-```markdown
-# Week NNN — Weekly Review
+## 8. Research paper tracker
 
-## Summary
+| Paper | Read | Implemented | Reproduced | Report |
+|---|---|---|---|---|
+| Attention Is All You Need | No | No | No | No |
+| BERT | No | No | No | No |
+| GPT-2 | No | No | No | No |
+| GPT-3 | No | No | No | No |
+| Chinchilla | No | No | No | No |
+| LoRA | No | No | No | No |
+| FlashAttention | No | No | No | No |
+| DPO | No | No | No | No |
 
-- Week:
-- Topic:
-- Status:
-- Start date:
-- End date:
+Reading, implementation, and reproduction are separate milestones.
 
-## Time Spent
+## 9. Knowledge gaps and backlog
 
-| Activity | Planned | Actual |
-|---|---:|---:|
-| Theory | | |
-| Mathematics | | |
-| Implementation | | |
-| Experiments | | |
-| Documentation | | |
-| MAANG preparation | | |
-| Total | | |
-
-## Completed Assignments
-
-- [ ] Assignment 1
-- [ ] Assignment 2
-- [ ] Assignment 3
-
-## Deliverables
-
-- Source code:
-- Tests:
-- Notes:
-- Experiment results:
-- GitHub commit / PR:
-
-## Self-assessment
-
-| Dimension | Score (1–5) |
-|---|---:|
-| Theory | |
-| Mathematics | |
-| Implementation | |
-| Experiments | |
-| Communication | |
-
-## Knowledge Check
-
-1. What did I learn?
-2. Can I explain the key concepts without notes?
-3. What can I derive or implement independently?
-4. What remains unclear?
-5. What mistakes did I make?
-
-## Experiment Results
-
-- Hypothesis:
-- Baseline:
-- Configuration:
-- Results:
-- Interpretation:
-- Limitations:
-
-## Blockers
-
-- Technical:
-- Mathematical:
-- Time-related:
-
-## Next Week
-
-- Priority 1:
-- Priority 2:
-- Priority 3:
-
-## Final Review
-
-- Weighted score:
-- Reviewer decision:
-- Required revisions:
-```
-
----
-
-# 6. Study Time Tracking
-
-Track actual study time rather than relying on planned time.
-
-| Week | Planned Hours | Actual Hours | Difference |
-| ---: | ------------: | -----------: | ---------: |
-|  001 |             6 |            0 |         — |
-|  002 |             6 |           — |         — |
-|  003 |             6 |           — |         — |
-
-Recommended target: 5–7 hours per week.
-
-If work or family commitments reduce available time, adjust the schedule rather than rushing through foundational concepts.
-
----
-
-# 7. Projects Portfolio
-
-Track substantial projects separately from weekly exercises.
-
-| Project                     | Status      | Tests | Documentation | Evaluation |
-| --------------------------- | ----------- | ----- | ------------- | ---------- |
-| ML from Scratch             | Not started | —    | —            | —         |
-| Neural Network from Scratch | Not started | —    | —            | —         |
-| Transformer from Scratch    | Not started | —    | —            | —         |
-| Small Language Model        | Not started | —    | —            | —         |
-| Independent Research        | Not started | —    | —            | —         |
-
-A project is considered portfolio-ready when it includes:
-
-- Clear problem statement.
-- Reproducible setup.
-- Working implementation.
-- Tests.
-- Experiment results.
-- Technical documentation.
-- Known limitations.
-
----
-
-# 8. Research Paper Tracker
-
-Track papers studied and reproduced.
-
-| Paper                     | Read | Implemented | Reproduced | Report |
-| ------------------------- | ---- | ----------- | ---------- | ------ |
-| Attention Is All You Need | No   | No          | No         | No     |
-| BERT                      | No   | No          | No         | No     |
-| GPT-2                     | No   | No          | No         | No     |
-| GPT-3                     | No   | No          | No         | No     |
-| Chinchilla                | No   | No          | No         | No     |
-| LoRA                      | No   | No          | No         | No     |
-| FlashAttention            | No   | No          | No         | No     |
-| DPO                       | No   | No          | No         | No     |
-
-Reading a paper does not mean reproducing it. Keep these milestones separate.
-
----
-
-# 9. Knowledge Gaps and Backlog
-
-Use this section to record topics that require additional attention.
-
-| Topic           | Gap            | Priority | Planned Action   | Status |
-| --------------- | -------------- | -------- | ---------------- | ------ |
-| Python          | To be assessed | Medium   | Week 1 exercises | Open   |
-| Linear Algebra  | To be assessed | High     | Phase 1          | Open   |
-| Calculus        | To be assessed | High     | Phase 1          | Open   |
-| Probability     | To be assessed | High     | Phase 1          | Open   |
-| ML fundamentals | Not assessed   | Medium   | Phase 2          | Open   |
+| Topic | Gap | Priority | Planned action | Status |
+|---|---|---|---|---|
+| Python | To be assessed | Medium | Week 1–4 exercises | Open |
+| Linear algebra | To be assessed | High | Continuous foundations | Open |
+| Calculus | To be assessed | High | ML/DL phases | Open |
+| Probability and statistics | To be assessed | High | ML phase | Open |
+| LLM application engineering | Not assessed | High | Weeks 5–16 | Open |
+| ML fundamentals | Not assessed | Medium | Weeks 17–28 | Open |
 
 Only add gaps that have actually been identified.
 
----
+## 10. Monthly retrospective
 
-# 10. Monthly Retrospective
-
-At the end of every four weeks, answer:
-
-1. What did I learn that I can now explain independently?
+At the end of every four weeks, record:
+1. What can I now explain independently?
 2. What did I implement without following a tutorial?
-3. Which mathematical concepts remain difficult?
-4. Which experiments produced useful insights?
+3. Which portfolio evidence did I add?
+4. Which mathematical concepts remain difficult?
 5. Did I maintain the planned study schedule?
-6. What should change next month?
-7. What is the most important skill gap?
+6. What do current target-role descriptions require?
+7. What is the most important next skill gap?
 
-## Monthly review record
+| Month | Weeks reviewed | Average score | Study hours | Main outcome |
+|---|---:|---:|---:|---|
+| Month 1 | 0 | — | 0 | Not started |
 
-| Month   | Weeks Reviewed | Average Score | Study Hours | Main Outcome |
-| ------- | -------------: | ------------: | ----------: | ------------ |
-| Month 1 |              0 |            — |           0 | Not started  |
+## 11. Tracking principles
 
----
-
-# 11. Academy Completion Criteria
-
-The Academy is considered successfully completed when the following evidence exists:
-
-- [ ] Mathematical foundations demonstrated.
-- [ ] Classical ML algorithms implemented.
-- [ ] Neural networks implemented and trained.
-- [ ] Transformer architecture implemented.
-- [ ] Small language model trained or fine-tuned.
-- [ ] Research papers analyzed.
-- [ ] At least two substantial paper reproduction projects completed.
-- [ ] GPU and ML performance experiments documented.
-- [ ] Independent research project completed.
-- [ ] Portfolio projects documented and reproducible.
-- [ ] Final technical retrospective published.
-
-Completion is based on demonstrated skills, not merely the passage of 104 weeks.
-
----
-
-# 12. Tracking Principles
-
-1. Never mark work as completed without evidence.
+1. Never mark work complete without evidence.
 2. Separate self-assessment from reviewed assessment.
 3. Record actual study hours.
 4. Keep experiment configurations and results.
 5. Record failed experiments and unresolved questions.
 6. Revisit weak foundations when necessary.
 7. Do not sacrifice understanding to maintain a weekly streak.
-8. Update this document after each weekly review.
+8. Keep career milestones evidence-based; a week number does not guarantee job readiness.
 
-**Progress is measured by what you can explain, implement, test, and reproduce — not by how many pages you have read.**
+**Progress is measured by what you can explain, implement, test, and reproduce—not by how many pages you have read.**
