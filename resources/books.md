@@ -5,6 +5,7 @@
 | **Build a Large Language Model From Scratch** | 41–68       | NLP, Transformers, LLM                         |                                                                                |
 | **Grokking Parallel Programming**             | 85–96       | GPU и parallel programming                    |                                                                                |
 | **Build a Reasoning Model From Scratch**      | 97–104+     | Основной материал Classical ML |                                                                                |
+| **Linear Algebra and Its Applications (4th ed.) — Gilbert Strang** | 1–4 | Фундаментальная линейная алгебра: векторы, матрицы, исключение Гаусса, пространства, ортогональность и собственные значения | [Конспект: геометрия линейных уравнений](../foundations/mathematics/linear-algebra/geometry-of-linear-equations.md); [MIT 18.06 Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 Дополнительно:
 
