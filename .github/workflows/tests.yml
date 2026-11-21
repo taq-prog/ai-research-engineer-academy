@@ -1,0 +1,63 @@
+name: Python tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.py"
+      - "**.toml"
+      - "**.ini"
+      - "**.cfg"
+      - "**.txt"
+      - ".github/workflows/tests.yml"
+  pull_request:
+    paths:
+      - "**.py"
+      - "**.toml"
+      - "**.ini"
+      - "**.cfg"
+      - "**.txt"
+      - ".github/workflows/tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: python-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python-checks:
+    name: Python syntax and tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Compile Python files
+        run: python -m compileall -q foundations weeks
+
+      - name: Run pytest
+        shell: bash
+        run: |
+          set +e
+          python -m pytest -q
+          status=$?
+          set -e
+
+          if [ "$status" -eq 5 ]; then
+            echo "::warning::No tests were collected. Add pytest tests to enable test execution."
+          elif [ "$status" -ne 0 ]; then
+            exit "$status"
+          fi
